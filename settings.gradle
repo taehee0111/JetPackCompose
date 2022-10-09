@@ -7,4 +7,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "JetPackCompose"
-include ':app'
+include ':basic'
+include ':tutorial'
