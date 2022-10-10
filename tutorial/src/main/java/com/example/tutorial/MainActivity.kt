@@ -22,7 +22,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.jetpackcompose.tutorial.theme.JetPackComposeTheme
+import com.example.jetpackcompose.tutorial.theme.TutorialTheme
 import com.example.jetpackcompose.tutorial.ui.SampleData
 import com.example.tutorial.R
 
@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             //테마 적용
-            JetPackComposeTheme {
+            TutorialTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
                     MainImage()
@@ -64,7 +64,7 @@ fun PreviewConversation() {
 //    MaterialTheme {
 //        Conversation(SampleData.conversationSample)
 //    }
-    JetPackComposeTheme() {
+    TutorialTheme() {
         Conversation(SampleData.conversationSample)
     }
 }
@@ -181,7 +181,7 @@ fun Greeting(name: String) {
 fun ColumnsTest() {
     val message = Message("autor", "body")
     val testStr = "Android";
-    JetPackComposeTheme {
+    TutorialTheme {
         ColumnTest(message, testStr)
     }
 }
