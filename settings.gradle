@@ -4,8 +4,10 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
+        mavenLocal()
     }
 }
 rootProject.name = "JetPackCompose"
 include ':basic'
 include ':tutorial'
+include ':basiclayout'
