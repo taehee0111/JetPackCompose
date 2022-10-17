@@ -11,3 +11,4 @@ rootProject.name = "JetPackCompose"
 include ':basic'
 include ':tutorial'
 include ':basiclayout'
+include ':theme'
